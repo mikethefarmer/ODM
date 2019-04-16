@@ -153,8 +153,8 @@ externalproject_add(smvs
 )
 
 externalproject_add(poissonrecon
-    GIT_REPOSITORY    https://github.com/mkazhdan/PoissonRecon.git
-    GIT_TAG           ce5005ae3094d902d551a65a8b3131e06f45e7cf
+    GIT_REPOSITORY    https://github.com/mikethefarmer/PoissonRecon.git
+    GIT_TAG           master
     SOURCE_DIR        ${SB_SOURCE_DIR}/PoissonRecon
     UPDATE_COMMAND    ""
     CONFIGURE_COMMAND ""
